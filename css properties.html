@@ -6,7 +6,7 @@
     <style>
         h1{
             border: 2px solid black;
-            padding: 155px;
+            padding: 150px;
             background: url("http://wallup.net/wp-content/uploads/2017/03/28/412563-photography-landscape-nature-India-duck-castle-Sun-lake-reflection-clouds.jpg");
             background-repeat: no-repeat;
             background-size: 3000px;
@@ -34,57 +34,98 @@ li a {
 li a:hover {
   background-color: #111;
 }
-.column {
-  float: right;
-  width: 50%;
-  padding: 5px;
-  
+div.gallery {
+  border: 1px solid #ccc;
 }
 
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
 }
 
 div.desc {
   padding: 15px;
   text-align: center;
+  font-size: 25px;
+  font-family:comic sans ms ;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 </style>
 </head>
     <body>
         <h1 style="color:#1b1107 ;text-align:center;font-family:jokerman;">WELCOME BACK TO THE PAGE OF INDIA</h1>
     <ul>
-        <li><a class="active" href="#home">Home</a></li>
-        <li><a href="#state">State</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#about">About</a></li>
+        <li style="font-family:FANTASY;"><a class="active" href="#home">Home</a></li>
+        <li style="font-family:FANTASY;"><a href="#state">State</a></li>
+        <li style="font-family:FANTASY;"><a href="#contact">Contact</a></li>
+        <li style="font-family:FANTASY;"><a href="#about">About us</a></li>
     </ul> 
-
-      <div class="row">
-        <div class="column">
-          <img src="https://knitved.com/wp-content/uploads/2022/06/List-of-Indian-States-and-Capital-scaled.jpg" alt="Capitals" style="width:100%">
+    <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="https://knitved.com/wp-content/uploads/2022/06/List-of-Indian-States-and-Capital-scaled.jpg">
+            <img src="https://knitved.com/wp-content/uploads/2022/06/List-of-Indian-States-and-Capital-scaled.jpg" alt="States" width="600" height="400">
+          </a>
           <div class="desc">Capitals</div>
         </div>
-        <div class="row">
-            <div class="column">
-              <img src="https://i.ytimg.com/vi/LmGbF5Qpb5Q/maxresdefault.jpg" alt="Capitals" style="width:100%">
-              <div class="desc">Chief Minister</div>
-            </div>
-            <div class="row">
-                <div class="column">
-                  <img src="https://i.pinimg.com/originals/46/12/43/46124339bb094971ad4249f4720fbf69.jpg" alt="Capitals" style="width:100%">
-                  <div class="desc">Emblem</div>
-                </div>
-                <div class="row">
-                    <div class="column">
-                      <img src="https://studywrap.com/wp-content/uploads/2021/03/40-Governor-of-State.jpg" alt="Capitals" style="width:100%">
-                      <div class="desc">Governor</div>
-                    </div>
-        
-
-</body>
+      </div>
+      
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="https://i.ytimg.com/vi/LmGbF5Qpb5Q/maxresdefault.jpg">
+            <img src="https://i.ytimg.com/vi/LmGbF5Qpb5Q/maxresdefault.jpg" alt="Chief Minister" width="600" height="400">
+          </a>
+          <a href="chiefminister.html"><div class="desc">Chief Minister</div></a>
+        </div>
+      </div>
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="https://studywrap.com/wp-content/uploads/2021/03/40-Governor-of-State.jpg">
+            <img src="https://studywrap.com/wp-content/uploads/2021/03/40-Governor-of-State.jpg" alt="Gorvernor" width="600" height="400">
+          </a>
+          <a href="governor.html"><div class="desc">Gorvernor</div></a>
+        </div>
+      </div>
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="https://lifebeyondnumbers.b-cdn.net/wp-content/uploads/2019/01/National-Emblem-of-India.jpg">
+            <img src="https://lifebeyondnumbers.b-cdn.net/wp-content/uploads/2019/01/National-Emblem-of-India.jpg" alt="Emblem" width="600" height="400">
+          </a>
+         <a href ="emblem.html" ><div class="desc">Emblem</div></a>
+        </div>
+    </div>
+    </body>
 </html>
