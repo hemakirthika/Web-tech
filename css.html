@@ -6,7 +6,7 @@
     <style>
         h1{
             border: 2px solid black;
-            padding: 85px;
+            padding: 150px;
             background: url("https://wallpapercave.com/wp/e7vo9d8.jpg");
             background-repeat: no-repeat;
             background-size: 3000px;
@@ -35,10 +35,7 @@ li a:hover {
   background-color: #111;
 }
 div.gallery {
-  margin: 5px;
   border: 1px solid #ccc;
-  float: left;
-  width: 550px;
 }
 
 div.gallery:hover {
@@ -55,6 +52,34 @@ div.desc {
   text-align: center;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 </style>
 </head>
     <body>
@@ -65,26 +90,40 @@ div.desc {
         <li><a href="#contact">Contact</a></li>
         <li><a href="#about">About</a></li>
     </ul> 
-    <div class="gallery">
-        <a target="_blank" href="https://knitved.com/wp-content/uploads/2022/06/List-of-Indian-States-and-Capital-scaled.jpg">
-          <img src="https://knitved.com/wp-content/uploads/2022/06/List-of-Indian-States-and-Capital-scaled.jpg" alt="Capitals" width="50px" height="50px">
-        </a>
-        <div class="desc">Capitals</div>
+    <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="https://knitved.com/wp-content/uploads/2022/06/List-of-Indian-States-and-Capital-scaled.jpg">
+            <img src="https://knitved.com/wp-content/uploads/2022/06/List-of-Indian-States-and-Capital-scaled.jpg" alt="States" width="600" height="400">
+          </a>
+          <div class="desc">States</div>
+        </div>
       </div>
       
-      <div class="gallery">
-        <a target="_blank" href="https://i.ytimg.com/vi/LmGbF5Qpb5Q/maxresdefault.jpg">
-          <img src="https://i.ytimg.com/vi/LmGbF5Qpb5Q/maxresdefault.jpg" alt="Chief Minister" width="800" height="400">
-        </a>
-        <div class="desc">Chief Minister</div>
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="https://i.ytimg.com/vi/LmGbF5Qpb5Q/maxresdefault.jpg">
+            <img src="https://i.ytimg.com/vi/LmGbF5Qpb5Q/maxresdefault.jpg" alt="Chief Minister" width="600" height="400">
+          </a>
+          <div class="desc">Chief Minister</div>
+        </div>
       </div>
       
-      <div class="gallery">
-        <a target="_blank" href="https://studywrap.com/wp-content/uploads/2021/03/40-Governor-of-State.jpg">
-          <img src="https://studywrap.com/wp-content/uploads/2021/03/40-Governor-of-State.jpg" alt="Governor" width="800" height="400">
-        </a>
-        <div class="desc">Governor</div>
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="https://studywrap.com/wp-content/uploads/2021/03/40-Governor-of-State.jpg">
+            <img src="https://studywrap.com/wp-content/uploads/2021/03/40-Governor-of-State.jpg" alt="Gorvernor" width="600" height="400">
+          </a>
+          <div class="desc">Gorvernor</div>
+        </div>
       </div>
-      
-</body>
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="https://lifebeyondnumbers.b-cdn.net/wp-content/uploads/2019/01/National-Emblem-of-India.jpg">
+            <img src="https://lifebeyondnumbers.b-cdn.net/wp-content/uploads/2019/01/National-Emblem-of-India.jpg" alt="Emblem" width="600" height="400">
+          </a>
+          <div class="desc">Emblem</div>
+        </div>
+    </div>
+    </body>
 </html>
