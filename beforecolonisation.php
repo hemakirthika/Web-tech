@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>colonisation1</title>
+</head>
+<body>
+    <h1 style="font-family:jokerman;text-align:center;">Before colonisation</h1>
+    <p style="font-family:montserrat;font-size: 18px;">
+        Before colonization, India was a land of rich cultural heritage, diverse kingdoms, and thriving trade. Here is a simplified overview of India before colonization:
+
+        Ancient Civilizations
+        - Indus Valley Civilization (around 2500-1900 BCE):
+          - One of the world's oldest urban civilizations, located in present-day Pakistan and northwest India.
+          - Known for advanced city planning, drainage systems, and trade.<br><br>
+        
+         Ancient and Classical Periods
+        - Vedic Period (around 1500-500 BCE):
+          - Named after the Vedas, ancient religious texts that form the basis of Hinduism.
+          - Society was organized into four varnas (social classes): Brahmins (priests), Kshatriyas (warriors), Vaishyas (traders), and Shudras (laborers).<br><br>
+        
+        - Maurya Empire (322-185 BCE):
+          - Founded by Chandragupta Maurya.
+          - Emperor Ashoka, one of the greatest rulers, embraced Buddhism and spread its teachings across Asia.
+          - Known for the spread of Buddhism and the Ashokan Edicts.<br><br>
+        
+        - Gupta Empire (around 320-550 CE):
+          - Known as the Golden Age of India.
+          - Significant advancements in science, mathematics (concept of zero), astronomy, literature, and arts.<br><br>
+        
+         Medieval Period
+        - Chola Dynasty (around 9th-13th centuries):
+          - Ruled southern India and parts of Southeast Asia.
+          - Known for naval dominance, temple architecture, and Tamil culture.<br><br>
+        
+        -Delhi Sultanate (1206-1526):
+          - Series of Muslim dynasties that ruled northern India.
+          - Introduced new architectural styles, including Qutub Minar and Alai Darwaza.<br><br>
+        
+        - Vijayanagara Empire (1336-1646):
+          - Ruled southern India.
+          - Known for prosperity, Hampi (a UNESCO World Heritage site), and contributions to art and culture.<br><br>
+        
+        Pre-Colonial India
+        - **Mughal Empire (1526-1857):
+          - Founded by Babur, the Mughals were of Mongol descent.
+          - Akbar the Great promoted religious tolerance and cultural integration.
+          - Famous for magnificent architecture like the Taj Mahal and Red Fort.
+          - Flourished in arts, literature, and centralized administration.<br><br>
+        
+        Trade and Economy
+        - Flourishing Trade:
+          - India was known for its wealth, spices, textiles, and gemstones.
+          - Had extensive trade networks with Europe, the Middle East, and Southeast Asia.
+          - Ports like Calicut, Surat, and Masulipatnam were bustling trade centers.<br><br>
+        
+         Cultural and Intellectual Achievements
+        - Literature and Philosophy:
+          - Rich literary traditions in Sanskrit, Tamil, and other regional languages.
+          - Important texts include the Vedas, Upanishads, Mahabharata, Ramayana, and works by poets like Kalidasa and Thiruvalluvar.<br><br>
+        
+        -Science and Mathematics:
+          - Pioneering work in mathematics (concept of zero, decimal system), astronomy, and medicine (Ayurveda).<br><br>
+        
+        - Art and Architecture:
+          - Elaborate temples, forts, and palaces.
+          - Intricate sculptures, paintings, and handicrafts.<br><br>
+        
+        Before colonization, India was a mosaic of powerful kingdoms and empires, each contributing to its rich cultural and historical tapestry. Its economy, culture, and intellectual pursuits were highly advanced, making it one of the most influential regions in the world.</p>
+        <a href="index.php">Back to our official page</a>
+</body>
+</html>

@@ -36,7 +36,7 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
 <html>
 <style>
 body {font-family: Arial, Helvetica, sans-serif;}
-
+* {box-sizing: border-box}
 
 
 input[type=text], input[type=password] {
@@ -99,7 +99,7 @@ button:hover {
 
 @media screen and (max-width: 300px) {
   .cancelbtn, .signupbtn {
-     width: 50%;
+     width: 10%;
   }
 }
 </style>
@@ -146,8 +146,9 @@ button:hover {
       <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
     </label><br><br>
     <div class="clearfix">
-      <button type="button" class="cancelbtn">Cancel</button>
-      <button type="submit" class="signupbtn">Sign Up</button>
+    <button type="submit" class="signupbtn">Sign Up</button>  
+    <button type="button" class="cancelbtn">Cancel</button>
+      
     </div>
   </div>
 </form>
