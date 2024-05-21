@@ -24,8 +24,8 @@ body{
 .carousel-caption p{
     width: 60px;
     margin: auto;
-    font-size: 18px;
-    line-height: 1.9;
+    font-size: 10px;
+    line-height:1.9;
 
 }
 .caurosel-inner::before{
@@ -62,10 +62,10 @@ body{
 }
 
 .services .card-body i{
-    font-size: 50px;
+    font-size: 40px;
 }
 .team .card-body i{
-    font-size: 20px;
+    font-size: 50px;
 }
 .portfolio .card{
     box-shadow: 15px 15px 40px rgba(0,0,0,0.15);
