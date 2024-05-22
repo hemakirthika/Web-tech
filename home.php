@@ -29,19 +29,17 @@ if(!isset($_SESSION['name'])){
               </li>
               <li class="nav-item"style="font-family:comic sans ms;">
                 <a class="nav-link" href="Aboutus.html">About</a>
-            
+
              <li class="nav-item"style="font-family:comic sans ms;">
                     <a class="nav-link" href="portofolio.html">Portofolio</a>
-                    
+
                         <li class="nav-item"style="font-family:comic sans ms;">
                             <a class="nav-link" href="contact.html">Contact</a>
                             <li class="nav-item"style="font-family:comic sans ms;">
                                 <a class="nav-link" href="sign up form.html">Sign up</a>
                                 <li class="nav-item"style="font-family:comic sans ms;">
                                     <a class="nav-link" href="login.html">Login</a>
-            
-        
-    
+
 
 
 
@@ -177,11 +175,8 @@ if(!isset($_SESSION['name'])){
                             Chess, originally called "Chaturanga," was invented in India.
                                 </p>
                             <button class="btn btn-warning text-dark">Read More</button>
-                            
             </div>
-            
-
-                    </div>
+        </div>
                 </div>
             </div>
         </div>
@@ -216,7 +211,6 @@ if(!isset($_SESSION['name'])){
                     </div>
                 </div>
             </div>
-            
                 <div class="col-12 col-md-12 col-lg-4">
                     <div class="card text-center bg-white pb-2">
                         <div class="card-body text-dark">
@@ -257,7 +251,7 @@ if(!isset($_SESSION['name'])){
 
                                 </p>
                                 <a href="jharkhand.html"><button class="btn bg-warning text-dark">Learn more</button></a>
-    
+
                             </div>
                         </div>
                     </div>
@@ -286,12 +280,12 @@ if(!isset($_SESSION['name'])){
                         </div>
                     </div>
                 </div>
-                
+
             </div>
 
         </div>
     </section>
-    
+
 
     <!-- team section -->
     <section id="team" class="team section-padding">
@@ -319,17 +313,10 @@ if(!isset($_SESSION['name'])){
                                 <i class="bi bi-linkedin text-dark mx-1"></i>
                                 <i class="bi bi-instagram text-dark mx-1"></i>
 
-                                
                             </p>
-                           
-
-                            
-
-                           
                         </div>
                     </div>
                 </div>
-                
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="card text-center">
                         <div class="card-body">
@@ -344,13 +331,8 @@ if(!isset($_SESSION['name'])){
                                 <i class="bi bi-linkedin text-dark mx-1"></i>
                                 <i class="bi bi-instagram text-dark mx-1"></i>
 
-                                
+
                             </p>
-                           
-
-                            
-
-                           
                         </div>
                     </div>
                 </div>
@@ -390,43 +372,29 @@ if(!isset($_SESSION['name'])){
                         </div>
 
                         <button class="btn btn-warning btn-lg btn-block mt-3">Send now</button>
-                
             </div>
-            
 
         </div>
         <form><fieldset>
             <legend style="font-family:comic sans ms;">Are You satisfied with us?</legend>
             Yes <input name="yes" type="radio" value="yes" style="text-align:center;"/>
-            
+
             No <input name="no" type="radio" value="no" style="text-align:center;"/>
-            
-            </fieldset>    
+
+            </fieldset>
         </form>
-        <?php
+    </section>
+    <?php
         echo $_SESSION['name'];
+        echo $_SESSION['email'];
         echo $_SESSION['password'];
         ?>
-
-    </section>
-
     <!-- footer  -->
     <footer class="bg-dark p-2 text-center">
         <div class="container">
             <p class="text-white">All right reserved @website name</p>
         </div>
     </footer>
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" ></script>
 </body>
 </html>
